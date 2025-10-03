@@ -312,6 +312,10 @@ footer {
         font-size: 14px;
     }
     
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
 
     .nav-items {
         display: none;
@@ -378,7 +382,7 @@ footer {
 
     .card-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
     }
 
